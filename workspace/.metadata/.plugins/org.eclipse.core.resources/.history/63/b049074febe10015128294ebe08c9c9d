@@ -1,0 +1,237 @@
+package com.b5m.www.Testcase;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+
+
+
+
+
+import com.b5m.www.Elements.*;
+import com.b5m.www.Function.*;
+
+public class SPU_Iphone6s {
+	//WebDriver driver = new FirefoxDriver();
+	WebDriver driver = new ChromeDriver();
+	String WindowSwitch;
+	Mainpage_ElementsFind ef = new Mainpage_ElementsFind(driver);
+	Mainpage_Function mf = new Mainpage_Function(driver);
+	private String url = "http://www.b5m.com/";
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		//System.setProperty("webdriver.firefox.bin",Mainpage_Element.FirefoxBrowser);
+		System.setProperty("webdriver.chrome.driver",Mainpage_Element.ChromeBrowser);
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {	
+		mf.driverStart(url, 3);
+		//ef.AdClosed().click();
+		ef.SearchLine("iphone 6s");
+		ef.Submit();
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		if(driver!=null){
+			driver.quit();
+			driver=null;
+		}	
+		
+	}
+
+	@Test
+	public void SPU_Iphone_6s_JingDong() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_JiongDong");		
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_JingDong().click();
+		Thread.sleep(10000);	
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.JingDongUrl)){
+			mf.Snapshot("JingDong_Switch_Failed");
+		}	
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",WindowSwitch, Mainpage_Element.JingDongUrl);*/	
+		}
+	
+	@Test	
+	public void SPU_Iphone_6s_DangDang() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_DangDang");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_DangDang().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		Thread.sleep(10000);	
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.DangDangUrl)){
+			mf.Snapshot("当当跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.DangDangUrl);	*/
+		}
+
+	@Test	
+	public void SPU_Iphone_6s_YiHaoDian() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_YiHaoDian");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_YiHaoDian().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		Thread.sleep(10000);
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.YiHaoDianUrl)){
+			mf.Snapshot("一号店跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.YiHaoDianUrl);*/
+		}
+
+	@Test	
+	public void SPU_Iphone_6s_TianMao() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_TianMao");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_TianMao().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		Thread.sleep(10000);
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.TianMaoUrl)){
+			mf.Snapshot("天猫跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.TianMaoUrl);*/		
+		}
+
+	@Test	
+	public void SPU_Iphone_6s_SuNing() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_SuNing");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_SuNing().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		Thread.sleep(10000);	
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.SuNingUrl)){
+			mf.Snapshot("苏宁跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.SuNingUrl);*/
+		}
+
+	@Test	
+	public void SPU_Iphone_6s_YiXun() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_YiXun");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_YiXun().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		Thread.sleep(10000);
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.YiXunUrl)){
+			mf.Snapshot("易迅跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.YiXunUrl);*/
+		}
+
+	@Test	
+	public void SPU_Iphone_6s_GuoMei() throws InterruptedException {
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "SPU_Iphone_6s_GuoMei");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(10000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		mf.SpuPrice("Iphone6s价格排序错误");
+		ef.Iphone6s_GuoMei().click();
+		Thread.sleep(10000);
+		mf.PageVerify();
+		/*if (!(((WindowSwitch = mf.GoToNewWindow()))==Mainpage_Element.GuoMeiUrl)){
+			mf.Snapshot("国美跳转失败");
+		}
+		System.out.println(driver.getCurrentUrl());
+		assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.GuoMeiUrl);	*/	
+		}
+	
+	
+	
+	
+	
+	}
+
+
+
+
+
+
+
+
+

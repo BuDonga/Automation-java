@@ -1,0 +1,11 @@
+package com.b5m.www.Testcase;
+
+public class TestHTTPClient {
+
+	public static void main(String[] args) {
+
+		HttpGet Get = new HttpGet("http://b5caiapi.stage.com/index/topbnr.json");
+
+	}
+
+}

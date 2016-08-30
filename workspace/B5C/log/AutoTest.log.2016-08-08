@@ -1,0 +1,70 @@
+2016-08-08 16:35:34  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-08-08 16:35:34  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-08-08 16:35:34  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-08-08 16:35:34  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-08 16:35:34  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-08-08 16:35:34  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-08-08 16:35:35  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:15939<->172.16.111.11:80
+2016-08-08 16:35:35  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-08-08 16:35:35  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-08-08 16:35:35  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-08-08 16:35:35  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-08-08 16:35:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-08-08 16:35:35  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 502 Bad Gateway[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 08 Aug 2016 08:35:39 GMT[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/html[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Length: 620[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<html>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<head><title>502 Bad Gateway</title></head>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<body bgcolor="white">[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<h1>502 Bad Gateway</h1>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<p>The proxy server received an invalid response from an upstream server. Sorry for the inconvenience.<br/>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Please report this message and include the following information to us.<br/>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Thank you very much!</p>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<table>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>URL:</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>http://b5caiapi.stage.com/user/login.json</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>Server:</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>test-111.11</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>Date:</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<td>2016/08/08 16:35:39</td>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</tr>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</table>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<hr/>Powered by Tengine</body>[\r][\n]"
+2016-08-08 16:35:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</html>[\r][\n]"
+2016-08-08 16:35:35  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 502 Bad Gateway
+2016-08-08 16:35:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-08-08 16:35:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 08 Aug 2016 08:35:39 GMT
+2016-08-08 16:35:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: text/html
+2016-08-08 16:35:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Length: 620
+2016-08-08 16:35:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-08-08 16:35:35  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-08-08 16:35:45  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-08-08 16:35:45  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-08 16:35:46  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-08-08 16:35:46  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-08-08 16:35:46  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-08-08 16:35:46  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down

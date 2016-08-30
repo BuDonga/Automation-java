@@ -1,0 +1,6 @@
+2016-03-28 16:42:35  [Test]: 37 - [ INFO ]  This is info message~~~~~~~~~~~~~~~~~~
+2016-03-28 16:42:35  [Test]: 38 - [ DEBUG ]  This is debug message~~~~~~~~~~
+2016-03-28 16:42:35  [Test]: 39 - [ ERROR ]  This is error message~~~~~~~~
+2016-03-28 18:26:01  [Test]: 37 - [ INFO ]  This is info message~~~~~~~~~~~~~~~~~~
+2016-03-28 18:26:01  [Test]: 38 - [ DEBUG ]  This is debug message~~~~~~~~~~
+2016-03-28 18:26:01  [Test]: 39 - [ ERROR ]  This is error message~~~~~~~~

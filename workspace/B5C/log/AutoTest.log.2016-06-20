@@ -1,0 +1,1085 @@
+2016-06-20 17:25:59  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 17:25:59  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 17:25:59  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 17:25:59  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 17:25:59  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 17:25:59  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 17:25:59  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 17:25:59  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.json HTTP/1.1
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 17:25:59  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 17:25:59  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 17:25:59  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 17:25:59  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 09:25:59 GMT[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 17:25:59  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 17:25:59  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2016-06-20 17:25:59  [headers]:256 - [ DEBUG ]  << HTTP/1.1 200 OK
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 09:25:59 GMT
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Credentials: true
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 17:25:59  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 17:25:59  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:43:12  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:43:12  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:43:12  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:43:12  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:43:12  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:43:12  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:43:12  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:43:12  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:43:12  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:43:12  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:43:12  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:43:12  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:43:12 GMT[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 19:43:12  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:43:12  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2016-06-20 19:43:12  [headers]:256 - [ DEBUG ]  << HTTP/1.1 200 OK
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:43:12 GMT
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Credentials: true
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 19:43:12  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 19:43:12  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:54:38  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:54:38  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:54:38  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:54:38  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:54:38  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:54:38  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:54:38  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:54:38  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:54:38  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:54:38  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:54:38  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:54:38  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:54:38 GMT[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 19:54:38  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:54:38  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2016-06-20 19:54:38  [headers]:256 - [ DEBUG ]  << HTTP/1.1 200 OK
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:54:38 GMT
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Credentials: true
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 19:54:38  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 19:54:38  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:55:32  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:55:32  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:55:32  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:55:32  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:55:32  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:55:32  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:55:32  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:55:32  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:55:32  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:55:32  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:55:32  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:55:32  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:55:31 GMT[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 19:55:32  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:55:32  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2016-06-20 19:55:32  [headers]:256 - [ DEBUG ]  << HTTP/1.1 200 OK
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:55:31 GMT
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Credentials: true
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 19:55:32  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 19:55:32  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:56:07  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:56:07  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:56:07  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:56:07  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:56:07  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:56:07  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:56:07  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:56:07  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.jso1n HTTP/1.1
+2016-06-20 19:56:07  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.jso1n HTTP/1.1[\r][\n]"
+2016-06-20 19:56:07  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:56:07  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:56:07  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:56:07  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:56:07  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.jso1n HTTP/1.1
+2016-06-20 19:56:07  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:56:07  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:56:07  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 404 Not Found[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:56:07 GMT[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Content-Length: 987[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "Content-Language: en[\r][\n]"
+2016-06-20 19:56:08  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:56:08  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 404 Not Found
+2016-06-20 19:56:08  [headers]:256 - [ DEBUG ]  << HTTP/1.1 404 Not Found
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:56:07 GMT
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Content-Type: text/html;charset=utf-8
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Content-Length: 987
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:56:08  [headers]:259 - [ DEBUG ]  << Content-Language: en
+2016-06-20 19:56:08  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:56:12  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:56:13  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:56:13  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:56:13  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:56:13  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:56:13  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:56:13  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:56:13  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.jso1n HTTP/1.1
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.jso1n HTTP/1.1[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:56:13  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.jso1n HTTP/1.1
+2016-06-20 19:56:13  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:56:13  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:56:13  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 404 Not Found[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:56:12 GMT[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Content-Type: text/html;charset=utf-8[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Content-Length: 987[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "Content-Language: en[\r][\n]"
+2016-06-20 19:56:13  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:56:13  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 404 Not Found
+2016-06-20 19:56:13  [headers]:256 - [ DEBUG ]  << HTTP/1.1 404 Not Found
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:56:12 GMT
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Content-Type: text/html;charset=utf-8
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Content-Length: 987
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:56:13  [headers]:259 - [ DEBUG ]  << Content-Language: en
+2016-06-20 19:56:13  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 19:56:17  [BasicClientConnectionManager]:158 - [ DEBUG ]  Get connection for route {}->http://b5caiapi.stage.com
+2016-06-20 19:56:17  [DefaultClientConnectionOperator]:174 - [ DEBUG ]  Connecting to b5caiapi.stage.com:80
+2016-06-20 19:56:17  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 19:56:17  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 19:56:17  [RequestTargetAuthentication]: 78 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 19:56:17  [RequestProxyAuthentication]: 87 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 19:56:17  [DefaultHttpClient]:683 - [ DEBUG ]  Attempt 1 to execute request
+2016-06-20 19:56:17  [DefaultClientConnection]:268 - [ DEBUG ]  Sending request: GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   >> "[\r][\n]"
+2016-06-20 19:56:17  [headers]:272 - [ DEBUG ]  >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 19:56:17  [headers]:275 - [ DEBUG ]  >> Host: b5caiapi.stage.com
+2016-06-20 19:56:17  [headers]:275 - [ DEBUG ]  >> Connection: Keep-Alive
+2016-06-20 19:56:17  [headers]:275 - [ DEBUG ]  >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Server: Tengine[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Date: Mon, 20 Jun 2016 11:56:17 GMT[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Connection: keep-alive[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 19:56:17  [wire]: 72 - [ DEBUG ]   << "[\r][\n]"
+2016-06-20 19:56:17  [DefaultClientConnection]:253 - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2016-06-20 19:56:17  [headers]:256 - [ DEBUG ]  << HTTP/1.1 200 OK
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Server: Tengine
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Date: Mon, 20 Jun 2016 11:56:17 GMT
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Connection: keep-alive
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Credentials: true
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 19:56:17  [headers]:259 - [ DEBUG ]  << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 19:56:17  [DefaultHttpClient]:510 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:11:19  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:11:19  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:11:19  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:11:19  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:11:19  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16016<->172.16.111.11:80
+2016-06-20 20:11:19  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-20 20:11:19  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:11:19  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:11:19  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 20:11:19  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:11:19  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:11:19  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:11:19  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:11:18 GMT[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-20 20:11:19  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:11:18 GMT
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:11:19  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:11:19  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:11:19  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:11:19  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:11:19  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:11:19  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:28:35  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:28:35  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:28:35  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:28:35  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:28:35  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2016-06-20 20:28:35  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2016-06-20 20:28:35  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 127.0.0.1:16256<->127.0.0.1:8080
+2016-06-20 20:28:35  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /myDemo/Ajax/serivceJ.action HTTP/1.1
+2016-06-20 20:28:35  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:28:35  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:28:35  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /myDemo/Ajax/serivceJ.action HTTP/1.1
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 25
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: localhost:8080
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:28:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /myDemo/Ajax/serivceJ.action HTTP/1.1[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 25[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:28:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:28:35  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "username=admin&pwd=123456"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/html;charset=ISO-8859-1[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Length: 1392[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Jetty(8.y.z-SNAPSHOT)[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<html>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<head>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<title>Error 404 Not Found</title>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</head>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<body><h2>HTTP ERROR 404</h2>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<p>Problem accessing /myDemo/Ajax/serivceJ.action. Reason:[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<pre>    Not Found</pre></p><hr /><i><small>Powered by Jetty://</small></i><br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "<br/>                                                [\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</body>[\n]"
+2016-06-20 20:28:40  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "</html>[\n]"
+2016-06-20 20:28:40  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 404 Not Found
+2016-06-20 20:28:40  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: text/html;charset=ISO-8859-1
+2016-06-20 20:28:40  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Cache-Control: must-revalidate,no-cache,no-store
+2016-06-20 20:28:40  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Length: 1392
+2016-06-20 20:28:40  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Jetty(8.y.z-SNAPSHOT)
+2016-06-20 20:28:40  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:28:40  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+2016-06-20 20:28:40  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:28:40  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:28:40  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:28:40  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:28:40  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:29:00  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:29:00  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:29:58  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:29:58  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:31:13  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:31:13  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:31:13  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:31:13  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:31:13  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16358<->172.16.111.11:80
+2016-06-20 20:31:13  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:31:13  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:31:13  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:31:13  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 32
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:31:13  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:31:13  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "username=15921826291&pwd=a123456"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:31:12 GMT[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "35[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":40056001,"msg":"[0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]","data":null}[\r][\n]"
+2016-06-20 20:31:13  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:31:12 GMT
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:31:13  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:31:13  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:31:13  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:31:13  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:31:13  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:31:13  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:31:33  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:31:33  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:31:33  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:31:33  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:31:33  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16367<->172.16.111.11:80
+2016-06-20 20:31:33  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:31:33  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:31:33  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:31:33  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 31
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:31:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:31:33  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=a123456"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:31:32 GMT[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "3b[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":40056002,"msg":"[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe6][0x88][0x96][0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","data":null}[\r][\n]"
+2016-06-20 20:31:33  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:31:32 GMT
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:31:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:31:33  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:31:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:31:33  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:31:33  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:31:33  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:32:02  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:32:02  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:32:02  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:32:02  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:32:02  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16376<->172.16.111.11:80
+2016-06-20 20:32:02  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:32:02  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:32:02  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:32:02  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 31
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:32:02  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:32:02  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=a123456"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:32:02 GMT[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "3b[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":40056002,"msg":"[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe6][0x88][0x96][0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","data":null}[\r][\n]"
+2016-06-20 20:32:02  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:32:02 GMT
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:32:02  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:32:02  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:32:02  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:32:02  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:32:02  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:32:02  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:32:36  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:32:36  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:32:36  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:32:36  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:32:36  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16390<->172.16.111.11:80
+2016-06-20 20:32:36  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:32:36  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:32:36  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:32:36  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 32
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:32:36  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:32:36  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=a1234561"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:32:36 GMT[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "3b[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":40056002,"msg":"[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe6][0x88][0x96][0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","data":null}[\r][\n]"
+2016-06-20 20:32:36  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:32:36 GMT
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:32:36  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:32:36  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:32:36  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:32:36  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:32:36  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:32:36  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:33:15  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:33:15  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:33:15  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:33:15  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:33:15  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16396<->172.16.111.11:80
+2016-06-20 20:33:15  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:33:15  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:33:15  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:33:15  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 31
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:33:15  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:33:15  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=a123456"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:33:15 GMT[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "3b[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":40056002,"msg":"[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe6][0x88][0x96][0xe5][0xaf][0x86][0xe7][0xa0][0x81][0xe9][0x94][0x99][0xe8][0xaf][0xaf]","data":null}[\r][\n]"
+2016-06-20 20:33:15  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:33:15 GMT
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:33:15  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:33:15  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:33:15  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:33:15  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:33:15  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:33:15  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:33:44  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:33:44  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:33:44  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:33:44  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:33:44  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16468<->172.16.111.11:80
+2016-06-20 20:33:44  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:33:44  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:33:44  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:33:44  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:33:44  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:33:44  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:33:44 GMT[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4d[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":"_user_fbea11ba262d604a879c0d70d198bc3c"}[\r][\n]"
+2016-06-20 20:33:44  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:33:44 GMT
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:33:44  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:33:44  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:33:44  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:33:44  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:33:44  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:33:44  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 20:41:25  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 20:41:25  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:41:25  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 20:41:25  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 20:41:25  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:16647<->172.16.111.11:80
+2016-06-20 20:41:25  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 20:41:25  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 20:41:25  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 20:41:25  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 20:41:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 20:41:25  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 12:41:24 GMT[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4d[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":"_user_fbea11ba262d604a879c0d70d198bc3c"}[\r][\n]"
+2016-06-20 20:41:25  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 12:41:24 GMT
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 20:41:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 20:41:25  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 20:41:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 20:41:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:41:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 20:41:25  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 21:06:42  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 21:06:42  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:06:42  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 21:06:42  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 21:06:42  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:17108<->172.16.111.11:80
+2016-06-20 21:06:42  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-20 21:06:42  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 21:06:42  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 21:06:42  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 21:06:42  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 21:06:42  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 21:06:42  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 21:06:42  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 13:06:42 GMT[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-20 21:06:42  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 13:06:42 GMT
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 21:06:42  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 21:06:42  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 21:06:42  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 21:06:42  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:06:42  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:06:42  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 21:07:22  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 21:07:22  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:07:22  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 21:07:22  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 21:07:22  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:17117<->172.16.111.11:80
+2016-06-20 21:07:22  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-20 21:07:22  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 21:07:22  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 21:07:22  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-20 21:07:22  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 21:07:22  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 21:07:22  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 21:07:22  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 13:07:22 GMT[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-20 21:07:22  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 13:07:22 GMT
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 21:07:22  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 21:07:22  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 21:07:22  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 21:07:22  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:07:22  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:07:22  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 21:09:01  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 21:09:01  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:01  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 21:09:01  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 21:09:01  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:17125<->172.16.111.11:80
+2016-06-20 21:09:01  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 21:09:01  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 21:09:01  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 21:09:01  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 21:09:01  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 21:09:01  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 13:09:00 GMT[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4d[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":"_user_fbea11ba262d604a879c0d70d198bc3c"}[\r][\n]"
+2016-06-20 21:09:01  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 13:09:00 GMT
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 21:09:01  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 21:09:01  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 21:09:01  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 21:09:01  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:01  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:01  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 21:09:25  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 21:09:25  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:25  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 21:09:25  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 21:09:25  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:17127<->172.16.111.11:80
+2016-06-20 21:09:25  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 21:09:25  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 21:09:25  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 21:09:25  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 21:09:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 21:09:25  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 13:09:25 GMT[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4d[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":"_user_fbea11ba262d604a879c0d70d198bc3c"}[\r][\n]"
+2016-06-20 21:09:25  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 13:09:25 GMT
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 21:09:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 21:09:25  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 21:09:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 21:09:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:25  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-20 21:09:35  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-20 21:09:35  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:35  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-20 21:09:35  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-20 21:09:35  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:17129<->172.16.111.11:80
+2016-06-20 21:09:35  [MainClientExec]:238 - [ DEBUG ]  Executing request POST /user/login.json HTTP/1.1
+2016-06-20 21:09:35  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-20 21:09:35  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-20 21:09:35  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> POST /user/login.json HTTP/1.1
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Length: 56
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-20 21:09:35  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "POST /user/login.json HTTP/1.1[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-20 21:09:35  [wire]: 86 - [ DEBUG ]  http-outgoing-0 >> "account=15921826291&pwd=dc483e80a7a0bd9ef71d8cf973673924"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Mon, 20 Jun 2016 13:09:34 GMT[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4d[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":"_user_fbea11ba262d604a879c0d70d198bc3c"}[\r][\n]"
+2016-06-20 21:09:35  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Mon, 20 Jun 2016 13:09:34 GMT
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-20 21:09:35  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-20 21:09:35  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-20 21:09:35  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-20 21:09:35  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:35  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-20 21:09:35  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down

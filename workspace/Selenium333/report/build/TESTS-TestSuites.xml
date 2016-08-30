@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="4" failures="4" hostname="b5m-393" id="0" name="SuitTest" package="com.b5m.www.Testcase" skipped="0" tests="14" time="632.982" timestamp="2016-03-24T05:12:10">
+      <properties>
+          <property name="ant.project.invoked-targets" value="junit" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="E:\Work\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="ant.library.dir" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="E:\Jenkins\jobs\test\workspace" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report" />
+
+          <property name="java.endorsed.dirs" value="E:\Work\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ant.project.default-target" value="junit" />
+
+          <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+
+          <property name="ant.core.lib" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="ant.home" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="ant.project.name" value="Selenium333" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="java.library.path" value="E:\Work\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Work\Java\jdk1.7.0_79/bin;E:\Work\Java\jdk1.7.0_79/bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Work\Java\jdk1.7.0_79\bin;E:\Work\Java\jdk1.7.0_79\jre\bin;D:\Tool\TortoiseSVN\bin;D:\小插件\apache-maven-3.3.9\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;;." />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="build.path" value="build" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="lib.path" value="lib" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file" value="E:\Jenkins\jobs\test\workspace\build.xml" />
+
+          <property name="user.home" value="C:\" />
+
+          <property name="ant.file.Selenium333" value="E:\Jenkins\jobs\test\workspace\build.xml" />
+
+          <property name="src.path" value="E:/Work/SVN/10.Product Mng/20.PPG/30.Development Mng/60.Automation/workspace/Selenium333/src/com/b5m/www" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="user.name" value="B5M-393$" />
+
+          <property name="java.class.path" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\lib\junit-dep-4.11.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\lib\selenium-java-2.44.0-javadoc.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\lib\selenium-java-2.44.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\lib\selenium-server-standalone-2.44.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\build;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="java.home" value="E:\Work\Java\jdk1.7.0_79\jre" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.b5m.www.Testcase.SuitTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\build\TEST-com.b5m.www.Testcase.SuitTest.xml crashfile=E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\junitvmwatcher86602234026599113.properties propsfile=E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\Selenium333\report\junit7303125015971050240.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ant.file.type.Selenium333" value="file" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="java.ext.dirs" value="E:\Work\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="E:\Work\Java\jdk1.7.0_79\jre\lib\resources.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\rt.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jsse.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jce.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\charsets.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jfr.jar;E:\Work\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_GuoMei" time="59.072">
+          <error message="no such element&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 10.06 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: cb3d3bb1eb018d0e328710223eb8a5fb&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir8332_13596}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: cb3d3bb1eb018d0e328710223eb8a5fb
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir8332_13596}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.b5m.www.Function.Mainpage_ElementsFind.Iphone6s_Plus_GuoMei(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s_Plus.SPU_Iphone_6s_Plus_GuoMei(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_DangDang" time="16.748">
+          <error message="unknown error: Element is not clickable at point (938, 373). Other element would receive the click: &lt;div class=&quot;pic-tips&quot;&gt;...&lt;/div&gt;&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 30 milliseconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: 91cb8b82db0df0f1b66bad034c4a8912&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir7244_4104}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (938, 373). Other element would receive the click: &lt;div class=&quot;pic-tips&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 91cb8b82db0df0f1b66bad034c4a8912
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir7244_4104}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.b5m.www.Testcase.SPU_Iphone6s_Plus.SPU_Iphone_6s_Plus_DangDang(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_SuNing" time="98.767">
+          <failure message="商品已下架或者属性缺失" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 商品已下架或者属性缺失
+	at com.b5m.www.Function.Mainpage_Function.PageVerify(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s_Plus.SPU_Iphone_6s_Plus_SuNing(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_JingDong" time="39.312" />
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_YiXun" time="38.204" />
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_TianMao" time="34.612">
+          <error message="no such element&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 10.02 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: 94573fee47a97bee2e075051d92b8fcd&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir7260_9608}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 94573fee47a97bee2e075051d92b8fcd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir7260_9608}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.b5m.www.Function.Mainpage_ElementsFind.Iphone6s_Plus_TianMao(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s_Plus.SPU_Iphone_6s_Plus_TianMao(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s_Plus" name="SPU_Iphone_6s_Plus_YiHaoDian" time="35.826" />
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_YiHaoDian" time="33.642" />
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_YiXun" time="47.698">
+          <failure message="商品已下架或者属性缺失" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 商品已下架或者属性缺失
+	at com.b5m.www.Function.Mainpage_Function.PageVerify(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s.SPU_Iphone_6s_YiXun(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_GuoMei" time="27.115">
+          <error message="no such element&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 10.05 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: bd2c0c413e3fcc39a6184e3f6d23767d&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir8704_26021}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.6.20&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: bd2c0c413e3fcc39a6184e3f6d23767d
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\scoped_dir8704_26021}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.b5m.www.Function.Mainpage_ElementsFind.Iphone6s_GuoMei(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s.SPU_Iphone_6s_GuoMei(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_SuNing" time="44.416">
+          <failure message="商品已下架或者属性缺失" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 商品已下架或者属性缺失
+	at com.b5m.www.Function.Mainpage_Function.PageVerify(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s.SPU_Iphone_6s_SuNing(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_DangDang" time="65.485">
+          <failure message="商品已下架或者属性缺失" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 商品已下架或者属性缺失
+	at com.b5m.www.Function.Mainpage_Function.PageVerify(Unknown Source)
+	at com.b5m.www.Testcase.SPU_Iphone6s.SPU_Iphone_6s_DangDang(Unknown Source)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_TianMao" time="32.131" />
+
+      <testcase classname="com.b5m.www.Testcase.SPU_Iphone6s" name="SPU_Iphone_6s_JingDong" time="37.061" />
+
+      <system-out><![CDATA[This a testing11111111
+This a testing33
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 4170
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 38821
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 43203
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 22976
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 6525
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 28337
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 41439
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 5771
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 7841
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 9264
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 25966
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 36561
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 45958
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 8970
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>

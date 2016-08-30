@@ -1,0 +1,56 @@
+package com.b5m.www.Function;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Data_Drive {
+	public static List<String[]> excel_records;
+	public static List<String[]> csv_records;
+	
+			//读取CSV中的文件
+			public static Collection<String[]> getTestData(String path){
+			csv_records = new ArrayList<String[]>();
+			String row;
+			try {
+			BufferedReader br = new BufferedReader(new FileReader(path));
+			while ((row = br.readLine())!=null) {
+			String fields[] = row.split(",");
+			csv_records.add(fields);
+			}
+			br.close();
+			} catch (Exception e) {
+			e.printStackTrace();
+			}
+			
+			return csv_records;
+			}
+			
+			//读取EXCEL中的文件
+			public  static Collection<String[]> testData1(String path) throws IOException{
+				InputStream is = new FileInputStream(path);
+				XSSFWorkbook workbook = new XSSFWorkbook(is);
+				XSSFSheet sheet = workbook.getSheetAt(0);
+				int rowNum = sheet.getLastRowNum();
+				excel_records = new ArrayList<String[]>();
+					for (int i = 1; i <=rowNum; i++) {
+						XSSFRow row = sheet.getRow(i);
+						int colNum = row.getLastCellNum();
+						String[] data = new String[colNum];
+						for (int j = 0; j < colNum; j++) {
+							data[j] = row.getCell(j).getStringCellValue();
+						}
+						excel_records.add(data);
+					}
+					return excel_records;
+				}
+}

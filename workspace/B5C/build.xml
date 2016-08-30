@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="E:/Work/SVN/10.Product Mng/20.PPG/30.Development Mng/60.Automation/workspace/B5C/report" default="junit" name="B5C">
+ 	
+ 	<!-- =================================================================== -->
+ 	<!-- 变量设置  -->
+ 	<!-- =================================================================== -->
+	
+ 	<!-- 源代码src路径 -->
+ 	<property name="src.path" value="E:/Work/SVN/10.Product Mng/20.PPG/30.Development Mng/60.Automation/workspace/B5C/src/com/b5m/www"/>
+ 	<!-- 编译文件class路径 -->
+ 	<property name="build.path" value="build"/>
+ 	<!-- lib包路径 -->
+ 	<property name="lib.path" value="lib"/> 
+
+ 	
+ 	<!-- =================================================================== -->
+ 	<!-- 设置classpath -->
+ 	<!-- =================================================================== -->
+ 	<path id="compile.path">        
+          <fileset dir="${lib.path}">
+ 	          <include name="**/*.jar"/>
+ 	      </fileset>
+ 	         
+ 	      <pathelement path="${build.path}"/>
+ 	</path>   
+
+ 	
+ 	 <!-- =================================================================== -->
+ 	 <!-- 清除历史编译class -->
+ 	 <!-- =================================================================== -->
+ 	 <target name="clean" description="clean">
+ 	     <delete dir="${build.path}"/>
+ 	 </target>
+ 	
+ 	<!-- =================================================================== -->
+ 	<!-- 编译测试文件，初始化目录 -->
+ 	<!-- =================================================================== -->
+ 	<target name="compile" description="compile">
+   	    <mkdir dir="${build.path}"/>                        
+ 	    <javac srcdir="${src.path}" destdir="${build.path}"  includeantruntime="on" classpathref="compile.path"/>
+ 	</target>   
+
+ 	
+ 	<!-- =================================================================== -->
+ 	<!-- 执行测试案例 -->
+ 	<!-- =================================================================== -->
+ 	     <target name="junit" depends="clean,compile">
+ 	         <junit printsummary="true" fork="true">
+ 	         	<formatter type="xml" usefile="true"/>
+ 	              <classpath refid="compile.path"/>                  
+ 	                       
+                <test name="com.b5m.www.Testcase.SuitTest" todir="${build.path}"/>
+ 	          </junit>
+ 	     	
+ 	     	<!-- 产生单元测试报表文档 -->
+
+ 	     	<junitreport todir="${build.path}">
+ 	     	     <fileset dir="${build.path}">
+ 	     	         <include name="TEST-*.xml" />
+ 	     	             </fileset>
+ 	     	             <report format="frames" todir="${build.path}" />
+ 	     	         </junitreport>
+
+ 	      </target>
+
+</project>

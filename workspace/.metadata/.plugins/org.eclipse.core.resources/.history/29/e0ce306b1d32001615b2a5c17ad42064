@@ -1,0 +1,63 @@
+package com.b5m.www.Function;
+
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Iterator;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import com.b5m.www.Testcase.Test;
+
+public class Configuration {
+	WebDriver driver;
+	public String name;
+	public String age;
+	public String height;
+	static Logger log = Logger.getLogger(Test.class);
+
+	/**
+	 * @param driver
+	 * @throws IOException
+	 *             读取配置文件下的值
+	 */
+	public Configuration(WebDriver driver){
+		this.driver = driver;
+		Properties p = new Properties();
+		InputStream in = null;
+		try {
+			in = new BufferedInputStream(new FileInputStream("src/a.properties"));
+			p.load(in);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}		
+		Iterator<String> it = p.stringPropertyNames().iterator();
+		while (it.hasNext()) {
+			String key = it.next();
+			switch (key) {
+			case "name":
+				name = p.getProperty(key);
+				break;
+			case "age":
+				age = p.getProperty(key);
+				break;
+			case "height":
+				height = p.getProperty(key);
+				break;
+			case ""
+			}
+		}
+		try {
+			in.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

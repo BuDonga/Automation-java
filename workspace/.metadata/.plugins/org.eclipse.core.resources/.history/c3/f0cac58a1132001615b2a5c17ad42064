@@ -1,0 +1,53 @@
+package com.b5m.www.Function;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Data_Split {
+	
+	//读取CSV中的文件
+			public static Collection<String[]> getTestData(String path){
+			List<String[]> records = new ArrayList<String[]>();
+			String row;
+			try {
+			BufferedReader br = new BufferedReader(new FileReader(path));
+			while ((row = br.readLine())!=null) {
+			String fields[] = row.split(",");
+			records.add(fields);
+			}
+			br.close();
+			} catch (Exception e) {
+			e.printStackTrace();
+			}
+			
+			return records;
+			}
+			
+			public  static Collection<String[]> testData1() throws IOException{
+				InputStream is = new FileInputStream("Excel/ExcelData.xlsx");
+				XSSFWorkbook workbook = new XSSFWorkbook(is);
+				XSSFSheet sheet = workbook.getSheetAt(0);
+				int rowNum = sheet.getLastRowNum();
+				List<String[]> records = new ArrayList<String[]>();
+					for (int i = 1; i <=rowNum; i++) {
+						XSSFRow row = sheet.getRow(i);
+						int colNum = row.getLastCellNum();
+						String[] data = new String[colNum];
+						for (int j = 0; j < colNum; j++) {
+							data[j] = row.getCell(j).getStringCellValue();
+						}
+						records.add(data);
+					}
+					return records;
+				}
+}

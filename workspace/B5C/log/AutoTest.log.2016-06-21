@@ -1,0 +1,541 @@
+2016-06-21 10:45:09  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 10:45:09  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 10:45:09  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 10:45:09  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 10:45:09  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:4480<->172.16.111.11:80
+2016-06-21 10:45:09  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 10:45:09  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 10:45:09  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 10:45:09  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 10:45:09  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 10:45:09  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 10:45:09  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 10:45:09  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 02:45:09 GMT[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 10:45:09  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 02:45:09 GMT
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 10:45:09  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 10:45:09  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 10:45:09  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 10:45:09  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 10:45:09  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 10:45:09  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:23:55  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:23:55  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:23:55  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:23:55  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:23:55  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:23:55  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11937<->172.16.111.11:80
+2016-06-21 15:23:55  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:23:55  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:23:55  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:23:55  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:23:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:23:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:23:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:23:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:23:55 GMT[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:23:55  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:23:55 GMT
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:23:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:23:55  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:23:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:23:55  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:23:55  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:23:55  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:24:55  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:24:55  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:24:55  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:24:55  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:24:55  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:24:55  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11943<->172.16.111.11:80
+2016-06-21 15:24:55  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:24:55  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:24:55  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:24:55  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:24:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:24:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:24:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:24:55  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:24:55 GMT[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:24:55  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:24:55 GMT
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:24:55  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:24:55  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:24:55  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:24:55  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:24:55  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:24:55  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:25:57  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:25:57  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:25:57  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:25:57  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:25:57  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:25:57  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11951<->172.16.111.11:80
+2016-06-21 15:25:57  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:25:57  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:25:57  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:25:57  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:25:57  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:25:57  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:25:57  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:25:57  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:25:58 GMT[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:25:57  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:25:58 GMT
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:25:57  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:25:57  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:25:57  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:25:57  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:25:57  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:25:57  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:26:47  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:26:47  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:26:47  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:26:47  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:26:47  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:26:47  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11955<->172.16.111.11:80
+2016-06-21 15:26:47  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:26:47  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:26:47  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:26:47  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:26:47  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:26:47  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:26:47  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:26:47  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:26:48 GMT[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:26:47  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:26:48 GMT
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:26:47  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:26:47  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:26:47  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:26:47  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:26:47  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:26:47  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:26:50  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:26:50  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:26:50  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:26:50  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:26:50  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:26:50  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11957<->172.16.111.11:80
+2016-06-21 15:26:50  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:26:50  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:26:50  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:26:50  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:26:50  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:26:50  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:26:50  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:26:50  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:26:51 GMT[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:26:50  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:26:51 GMT
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:26:50  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:26:50  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:26:50  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:26:50  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:26:50  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:26:50  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:27:25  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:27:25  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:27:25  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:27:25  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:27:25  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:27:25  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:11958<->172.16.111.11:80
+2016-06-21 15:27:25  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:27:25  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:27:25  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:27:25  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:27:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:27:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:27:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:27:25  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:27:26 GMT[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:27:25  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:27:26 GMT
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:27:25  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:27:25  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:27:25  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:27:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:27:25  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:27:25  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:36:10  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:36:10  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:36:10  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:36:10  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:36:10  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:36:10  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:12120<->172.16.111.11:80
+2016-06-21 15:36:10  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:36:10  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:36:10  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:36:10  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:36:10  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:36:10  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:36:10  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:36:10  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:36:10 GMT[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:36:10  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:36:10 GMT
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:36:10  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:36:10  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:36:10  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:36:10  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:36:10  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:36:10  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 15:36:34  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 15:36:34  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 15:36:34  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:36:34  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 15:36:34  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 15:36:34  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:12122<->172.16.111.11:80
+2016-06-21 15:36:34  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:36:34  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 15:36:34  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 15:36:34  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 15:36:34  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 15:36:34  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 15:36:34  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 15:36:34  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 07:36:34 GMT[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "4ff[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb86[\r][\n]"
+2016-06-21 15:36:34  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 07:36:34 GMT
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 15:36:34  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 15:36:34  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "2b9[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "5.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 15:36:34  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 15:36:34  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:36:34  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 15:36:34  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down
+2016-06-21 17:04:33  [HttpBasic]: 38 - [ INFO ]  当前请求的地址是http://b5caiapi.stage.com/index/topbnr.json
+2016-06-21 17:04:33  [RequestAddCookies]:122 - [ DEBUG ]  CookieSpec selected: best-match
+2016-06-21 17:04:33  [RequestAuthCache]: 75 - [ DEBUG ]  Auth cache not set in the context
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:219 - [ DEBUG ]  Connection request: [route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:250 - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 17:04:33  [MainClientExec]:217 - [ DEBUG ]  Opening connection {}->http://b5caiapi.stage.com:80
+2016-06-21 17:04:33  [HttpClientConnectionOperator]:120 - [ DEBUG ]  Connecting to b5caiapi.stage.com/172.16.111.11:80
+2016-06-21 17:04:33  [HttpClientConnectionOperator]:127 - [ DEBUG ]  Connection established 172.16.12.148:13867<->172.16.111.11:80
+2016-06-21 17:04:33  [MainClientExec]:238 - [ DEBUG ]  Executing request GET /index/topbnr.json HTTP/1.1
+2016-06-21 17:04:33  [MainClientExec]:243 - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-06-21 17:04:33  [MainClientExec]:249 - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-06-21 17:04:33  [headers]:124 - [ DEBUG ]  http-outgoing-0 >> GET /index/topbnr.json HTTP/1.1
+2016-06-21 17:04:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Host: b5caiapi.stage.com
+2016-06-21 17:04:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2016-06-21 17:04:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-06-21 17:04:33  [headers]:127 - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "GET /index/topbnr.json HTTP/1.1[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Host: b5caiapi.stage.com[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Server: Tengine[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Jun 2016 09:04:33 GMT[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: http://postman.stage.com[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,OPTIONS[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "7b8[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "{"code":2000,"msg":"success","data":[{"topBnrSortNo":1,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/a524c10e6669e37532be185a3035cf88","topBnrImgPcCdnAddr":"http://upm01.b5m.com/52421f6d12acc852bad07b2c64fb7622","topBnrImgOrgtFileNm":"a524c10e6669e37532be185a3035cf88.jpg","sllrId":"laneige","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162840_8086.jpg"},{"topBnrSortNo":2,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/bfd837632459b1e18f2fe7683fee762b","topBnrImgPcCdnAddr":"http://upm01.b5m.com/e295c37e78b831644d5d69067953b3d7","topBnrImgOrgtFileNm":"bfd837632459b1e18f2fe7683fee762b.jpg","sllrId":"bebedepino","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162849_7928.jpg"},{"topBnrSortNo":3,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/decef0c1814796bbef143d303bebe64c","topBnrImgPcCdnAddr":"http://upm01.b5m.com/4b0be3e119bcaba21f26740ae5812ffc","topBnrImgOrgtFileNm":"decef0c1814796bbef143d303bebe64c.jpg","sllrId":"iope","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162902_1917.jpg"},{"topBnrSortNo":4,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/14915145bf337dd4aaaaa27bedafb865","topBnrImgPcCdnAddr":"http://upm01.b5m.com/694a62a1f2361dafc22c6efa9ab51499","topBnrImgOrgtFileNm":"14915145bf337dd4aaaaa27bedafb865.jpg","sllrId":"sulwhasoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160422162908_243.jpg"},{"topBnrSortNo":5,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/e0ddc14c8cb1d91e61fe533233d09ed9","topBnrImgPcCdnAddr":"http://upm01.b5m.com/759d3ff6b3ad2a13172fa8ed5977f8bc","topBnrImgOrgtFileNm":"16_whoo.jpg","sllrId":"whoo","topBnrImgSysFileNm":"BR_SYS_FILE_20160420201326_9142.jpg"},{"topBnrSortNo":6,"topBnrUrl":"http://","topBnrImgCdnAddr":"http://upm01.b5m.com/25a7d17bdde449b90bab9424b45a2fee","topBnrImgPcCdnAddr":"http://upm01.b5m.com/667eb7429927526ac9c40fece8fd00ed","topBnrImgOrgtFileNm":"[0xec][0xa0][0x95][0xea][0xb4][0x80][0xec][0x9e][0xa5].jpg","sllrId":"kgc","topBnrImgSysFileNm":"BR_SYS_FILE_20160421174049_1147.jpg"}]}[\r][\n]"
+2016-06-21 17:04:33  [headers]:113 - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Server: Tengine
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Jun 2016 09:04:33 GMT
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: http://postman.stage.com
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Origin,X-Requested-With,Content-Type,No-Cache,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,X-E4M-With
+2016-06-21 17:04:33  [headers]:116 - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,OPTIONS
+2016-06-21 17:04:33  [MainClientExec]:267 - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2016-06-21 17:04:33  [wire]: 72 - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:280 - [ DEBUG ]  Connection [id: 0][route: {}->http://b5caiapi.stage.com:80] can be kept alive indefinitely
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:286 - [ DEBUG ]  Connection released: [id: 0][route: {}->http://b5caiapi.stage.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:350 - [ DEBUG ]  Connection manager is shutting down
+2016-06-21 17:04:33  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 17:04:33  [DefaultManagedHttpClientConnection]: 79 - [ DEBUG ]  http-outgoing-0: Close connection
+2016-06-21 17:04:33  [PoolingHttpClientConnectionManager]:356 - [ DEBUG ]  Connection manager shut down

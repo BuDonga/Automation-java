@@ -1,0 +1,69 @@
+package com.b5m.www.Business;
+
+import static org.junit.Assert.assertEquals;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.b5m.www.Elements.Globel_Element;
+import com.b5m.www.Elements.Login_Elements;
+import com.b5m.www.Elements.Mainpage_Elements;
+import com.b5m.www.Function.Mainpage_ElementsFind;
+import com.b5m.www.Function.Mainpage_Function;
+import com.b5m.www.Testcase.Test;
+
+public class Business_Login {
+	WebDriver driver;
+	Mainpage_Elements ef = new Mainpage_Elements(driver);
+	Login_Elements le = new Login_Elements(driver);
+	Mainpage_Function mf = new Mainpage_Function(driver);
+	static Logger log = Logger.getLogger(Test.class);
+		
+	public Business_Login(WebDriver driver){
+			this.driver = driver;		
+	}
+
+//检查默认页面是否已经登录，如果已经登录，则退出
+public boolean IsLogin(){	
+	try {
+		if (le.log().isEnabled()){
+			log.info("当前用户：" + le.log().getText() + "正在登录");
+			le.log().click();
+			log.info("用户已退出");		
+			return true;
+		}		
+	}
+	catch (Exception e){
+		log.info("------------当前无用户登录------------");
+	}
+	return false;	
+	
+}
+
+//登录功能, loginUrl是登录界面确认的url，用来验证跳转是否正确
+public void login(String account, String password, String loginUrl) throws InterruptedException{
+	String a;
+	le.loginInfo().click();
+	Thread.sleep(5000);
+	if(!(a = driver.getCurrentUrl()).equals(loginUrl)){
+		mf.Snapshot("LoginTest1");
+		log.warn("没有跳转到登录页面，当前页面是："+ a);
+		log.warn("期望的登录页面是：" + loginUrl);
+	}
+	assertEquals("页面跳转不正确",driver.getCurrentUrl(),loginUrl);	
+	log.info("已进入登录界面");
+	le.account().sendKeys(account);
+	log.info("输入的账号是：" + account);
+	le.password().sendKeys(password);
+	log.info("输入的密码是：" + password);
+	le.account().submit();
+	
+}
+
+//主页点击直采页面进入
+public void zhicai(){
+	driver.findElement(By.xpath("/html/body/div[1]/div/ul[1]/li[1]/a")).click();
+}
+
+}

@@ -1,0 +1,32 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonTest1\com.python.pydev.analysis\v2_indexcache
+test1.__init__|1461234985922831000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\test1\__init__.py
+Project_1_XML.util|1463045208828329000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\Project_1_XML\util.py
+test1.script1|1461667575580787000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\test1\script1.py
+test2.__init__|1461234518091073000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\test2\__init__.py
+Project_1_XML.simple_markup|1463047921952511000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\Project_1_XML\simple_markup.py
+Project_1_XML.__init__|1463044366431146000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\Project_1_XML\__init__.py
+test2.script3|1462958130995769000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\test2\script3.py
+test2.script2|1462958036923388000|E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\PythonTest1\src\test2\script2.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=Project_1_XML.util
+4=test1.script1
+1=Project_1_XML.simple_markup
+3=test2.script2
+-- END DICTIONARY
+-- START TREE 1
+7
+blo|2|block!11@blocks!18@
+hel|1|hello!26@
+lin|1|lines!18@
+p|1|p!35@
+res|1|result!35@
+tit|1|title!11@
+x|1|x!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

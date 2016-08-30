@@ -1,0 +1,90 @@
+package com.b5m.www.Testcase;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.b5m.www.Elements.*;
+import com.b5m.www.Function.*;
+import com.thoughtworks.selenium.webdriven.commands.Click;
+
+public class Test {
+	
+	
+	
+	
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",Mainpage_Element.ChromeBrowser);
+		WebDriver driver = new ChromeDriver();
+		String WindowSwitch;
+		Mainpage_ElementsFind ef = new Mainpage_ElementsFind(driver);
+		Mainpage_Function mf = new Mainpage_Function(driver);
+		String url = "http://www.b5m.com/";
+		mf.driverStart(url, 3);
+		ef.SearchLine("iphone 6s");
+		ef.Submit();
+		//等待小助手自动关闭
+		Thread.sleep(7000);
+		SPU_Element_Find sef = new SPU_Element_Find(driver);
+		int number =sef.ResultEqual(2, "Iphone_6s SPU数量不正确");
+		assertEquals("iphone 6s SPU结果数量不正确", 2,number);
+		//等待小助手自动关闭
+		Thread.sleep(7000);
+		ef.SPU_Iphone6s().click();
+		mf.GoToNewWindow();
+		mf.GoToNewWindow();
+		System.out.println(driver.getCurrentUrl());
+		
+		mf.SpuPrice("Iphone6s价格排序错误");
+
+		ef.Iphone6s_JingDong().click();
+		Thread.sleep(10000);	
+		
+		/*if (!(mf.GoToNewWindow()==Mainpage_Element.JingDongUrl)){
+			Thread.sleep(5000);
+			mf.Snapshot("JingDong连接跳转失败");
+			System.out.println(driver.getCurrentUrl());
+		}	
+		System.out.println(driver.getCurrentUrl());*/
+		//*[@id="buyForm"]/div/div[6]/a[1]/span
+	try{
+		driver.findElement(By.xpath("//*[@id='buyForm']/div/div[6]/a[1]/span")).click();
+	} catch (Exception e){
+		System.out.println("Ready to go!!!");
+		assertTrue("商品已下架或自行购买", false);
+		e.printStackTrace();
+	}
+		
+		
+		/*assertEquals("页面跳转失败",mf.GoToNewWindow(), Mainpage_Element.JingDongUrl);	
+		System.out.println(driver.getCurrentUrl());
+		Thread.sleep(3000);*/
+		/*if(driver!=null){
+			driver.quit();
+			driver=null;
+		}*/	
+		
+		
+		}
+	
+	
+	
+
+	
+	
+	
+
+}

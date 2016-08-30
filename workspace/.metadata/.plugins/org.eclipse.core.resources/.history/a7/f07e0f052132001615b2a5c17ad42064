@@ -1,0 +1,27 @@
+
+#设置截屏存放的路径
+snapshot_path = E:\\Work\\SVN\\10.Product Mng\\20.PPG\\30.Development Mng\\60.Automation\\workspace\\B5C\\snapshot\\
+
+#浏览器选择
+browser = webdriver.chrome.driver
+
+#浏览器的路径
+browser_path = C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

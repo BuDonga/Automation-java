@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="b5m-393" id="0" name="SuitTest" package="com.b5m.www.Testcase" skipped="0" tests="6" time="139.307" timestamp="2016-08-03T07:23:33">
+      <properties>
+          <property name="ant.project.invoked-targets" value="junit" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="E:\Work\Java\jdk1.7.0_79\jre\bin" />
+
+          <property name="java.vm.version" value="24.79-b02" />
+
+          <property name="ant.library.dir" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="maven.multiModuleProjectDirectory" value="$M2_HOME" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C" />
+
+          <property name="java.runtime.version" value="1.7.0_79-b15" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report" />
+
+          <property name="ant.file.type.B5C" value="file" />
+
+          <property name="java.endorsed.dirs" value="E:\Work\Java\jdk1.7.0_79\jre\lib\endorsed" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="ant.project.default-target" value="junit" />
+
+          <property name="java.io.tmpdir" value="C:\Users\lscm\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="ant.home" value="D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="ant.project.name" value="B5C" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="java.library.path" value="E:\Work\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\Work\Java\jdk1.7.0_79\bin;E:\Work\Java\jdk1.7.0_79\jre\bin;D:\Tool\TortoiseSVN\bin;D:\小插件\apache-maven-3.3.9\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\Python;E:\Python\Scripts;D:\Tool\SSH;." />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="build.path" value="build" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="lib.path" value="lib" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\build.xml" />
+
+          <property name="user.home" value="C:\Users\lscm" />
+
+          <property name="ant.file.B5C" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\build.xml" />
+
+          <property name="src.path" value="E:/Work/SVN/10.Product Mng/20.PPG/30.Development Mng/60.Automation/workspace/B5C/src/com/b5m/www" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="user.name" value="lscm" />
+
+          <property name="java.class.path" value="E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-beanutils-1.7.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-codec-1.6.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-collections-3.2.1.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-httpclient-3.1.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-lang-2.3.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-logging-1.1.1.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\commons-logging-1.1.3.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\dom4j-1.6.1.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\ezmorph-1.0.3.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\fluent-hc-4.3.6.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\httpclient-4.3.6.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\httpclient-cache-4.3.6.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\httpcore-4.3.3.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\httpmime-4.3.6.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\json-lib-2.2.3-jdk15.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\junit-dep-4.11.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\log4j.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-examples-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-excelant-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-ooxml-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-ooxml-schemas-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\poi-scratchpad-3.8-20120326.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\selenium-java-2.44.0-javadoc.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\selenium-java-2.44.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\selenium-server-standalone-2.44.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\stax-api-1.0.1.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\lib\xmlbeans-2.3.0.jar;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\build;E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report;E:\Work\Java\jdk1.7.0_79\lib;E:\Work\Java\jdk1.7.0_79\lib\tools.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;D:\Tool\eclipse\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="java.home" value="E:\Work\Java\jdk1.7.0_79\jre" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.b5m.www.Testcase.SuitTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\build\TEST-com.b5m.www.Testcase.SuitTest.xml crashfile=E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\junitvmwatcher4519290467914958898.properties propsfile=E:\Work\SVN\10.Product Mng\20.PPG\30.Development Mng\60.Automation\workspace\B5C\report\junit265300097366634872.properties" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.version" value="1.7.0_79" />
+
+          <property name="java.ext.dirs" value="E:\Work\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="E:\Work\Java\jdk1.7.0_79\jre\lib\resources.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\rt.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jsse.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jce.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\charsets.jar;E:\Work\Java\jdk1.7.0_79\jre\lib\jfr.jar;E:\Work\Java\jdk1.7.0_79\jre\classes" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+      </properties>
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[0]" time="13.875" />
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[1]" time="35.889">
+          <error message="no such element&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 10.01 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.12.148&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: 041661970c5cb867dc5b6e508760c087&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\lscm\AppData\Local\Temp\scoped_dir9400_5197}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.12.148&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 041661970c5cb867dc5b6e508760c087
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\lscm\AppData\Local\Temp\scoped_dir9400_5197}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.b5m.www.Elements.Login_Elements.loginBtn(Unknown Source)
+	at com.b5m.www.Testcase.Login.LoginTest1(Unknown Source)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[2]" time="19.27" />
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[3]" time="12.857" />
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[4]" time="14.399" />
+
+      <testcase classname="com.b5m.www.Testcase.Login" name="LoginTest1[5]" time="33.426">
+          <error message="no such element&#xa;  (Session info: chrome=46.0.2490.86)&#xa;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 10.04 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.12.148&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#xa;Session ID: 431651462d7ffe127b43577f6d649709&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\lscm\AppData\Local\Temp\scoped_dir10732_16247}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;b5m-393&apos;, ip: &apos;172.16.12.148&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 431651462d7ffe127b43577f6d649709
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\lscm\AppData\Local\Temp\scoped_dir10732_16247}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.b5m.www.Elements.Login_Elements.loginBtn(Unknown Source)
+	at com.b5m.www.Testcase.Login.LoginTest1(Unknown Source)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 43738
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 18090
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 39022
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 47587
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 47096
+Only local connections are allowed.
+Starting ChromeDriver 2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf) on port 18526
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>
